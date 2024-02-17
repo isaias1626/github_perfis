@@ -1,0 +1,52 @@
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.listItem {
+    list-style: none;
+    padding: 16px;
+    border: 1px solid rgba(0,0,0, 0.1);
+    background-color: #008cff0a;
+}
+
+.itemName b, .itemLanguage b {
+    margin-right: 8px;
+}
+
+.itemLink {
+    display: block;
+    background-color: var(--corPrincipal);
+    color: var(--corSecundaria);
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+.itemLink:hover {
+    background-color: var(--corHover);;
+}
+
+.carregando {
+    width: 90px;
+    height: 90px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 9px solid var(--corPrincipal);
+    border-right: 9px solid transparent;
+
+    animation: loading 1s ease-in-out infinite;
+}
+
+@keyframes loading {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
