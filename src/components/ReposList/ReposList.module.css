@@ -50,3 +50,9 @@
         transform: rotate(360deg);
     }
 }
+
+.deuErro {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--corPrincipal);
+}

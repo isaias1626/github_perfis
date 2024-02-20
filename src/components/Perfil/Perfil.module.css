@@ -6,6 +6,8 @@
     padding: 180px 0 40px;
     color: var(--corSecundaria);
     margin-bottom: 80px;
+    border-bottom-left-radius: 350px;
+    border-bottom-right-radius: 350px;
 }
 
 .avatar {

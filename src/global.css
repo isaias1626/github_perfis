@@ -19,3 +19,27 @@
     --corSecundaria: #fff;
     --corHover:#005fad;
 }
+
+.divInput {
+    background-color: var(--corPrincipal);
+    display: block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 20px;
+}
+
+.inserirUsuario {
+    border: 2px solid var(--corSecundaria);
+    align-items: center;
+    padding: 5px 30px;
+    border-radius: 10px;
+    outline: none;
+}
+
+h4 {
+    margin-bottom: 8px;
+    color: var(--corSecundaria);
+    font-size: 18px;
+    font-weight: bold;
+}
